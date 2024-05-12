@@ -9,7 +9,7 @@ public class Persona {
     
     private String DNI, nombre, apellido;
     private boolean sexo;//false hombre true mujer
-    private double peso;
+    private double peso, altura;
     private int edad;
     
     public Persona(String DNI, String nombre, String apellido, boolean sexo, int edad, double peso){
@@ -20,6 +20,7 @@ public class Persona {
         this.sexo = sexo;
         this.peso = peso;
         this.edad = edad;
+        this.altura = altura;
         
     }
     
